@@ -102,6 +102,12 @@ h2 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.certificate:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .certificate img {
@@ -115,19 +121,49 @@ h2 {
     margin-top: 10px;
 }
 
-/* Buttons */
-.btn { 
-    display: inline-block; 
-    background: #0056b3; 
-    color: white; 
-    padding: 10px 20px; 
-    text-decoration: none; 
-    border-radius: 5px; 
-    margin-top: 10px; 
+/* Form Section */
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.btn:hover { 
-    background: #004494; 
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #004494;
+}
+
+/* Footer */
+footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1em;
+    font-weight: 300;
 }
 
 /* Responsive Design */
@@ -165,5 +201,9 @@ h2 {
 
     .certificate {
         width: 80%;
+    }
+
+    form {
+        width: 90%;
     }
 }
