@@ -8,11 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <!-- Header -->
     <header>
         <div class="container">
-            <img src="evc.jpg" alt="Esionyeaba Victor Chiemezie" class="profile-img">
+            <img src="evc.jpg" alt="Portrait of Esionyeaba Victor Chiemezie" class="profile-img">
             <h1>Esionyeaba Victor Chiemezie</h1>
             <p>Marketing Specialist | Digital Strategist</p>
             <nav>
@@ -31,8 +29,8 @@
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container section">
+    <!-- About Me Section -->
+    <section id="about" class="container">
         <h2>About Me</h2>
         <p>Passionate sales and marketing professional with years of experience.</p>
         <p>Skilled in driving customer engagement, sales conversions, and brand visibility.</p>
@@ -40,68 +38,108 @@
     </section>
 
     <!-- Video Section -->
-    <section class="container section">
-        <video width="100%" height="auto" controls>
+    <section class="container">
+        <h2>My Journey & Achievements</h2>
+        <video width="640" height="360" controls>
             <source src="https://raw.githubusercontent.com/Victor-coder96/Digital_Marketing_Portfolio/4ce96d3430f303d33c7d35fb3b133f663a276cf1/my_hng_internship_journey_%26_achievements%20(540p).mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </section>
 
     <!-- Case Studies Section -->
-    <section id="case-studies" class="container section">
+    <section id="case-studies" class="container">
         <h2>Case Studies</h2>
         <div class="case-study">
             <h3>Brand Awareness Campaign for Telex</h3>
             <p>Managed social media channels, researched Facebook groups for targeted outreach, and created landing pages to improve user engagement.</p>
-            <p>Increased social media engagement by 50%, leading to a 25% increase in sales.</p>
-            <p><a href="case-study-xyz.html" class="btn">Read Full Case Study</a></p>
+            <p>Results: Increased social media engagement by 50%, leading to a 25% increase in sales.</p>
+            <p><a href="case-study-telex.html">Read Full Case Study</a></p>
+        </div>
+        <div class="case-study">
+            <h3>SEO Strategy for ABC Startup</h3>
+            <p>Ranked top 3 on Google search results for targeted keywords in under 3 months.</p>
+            <p><a href="case-study-abc.html">Read Full Case Study</a></p>
         </div>
     </section>
 
     <!-- Blog Section -->
-    <section id="blog" class="container section">
+    <section id="blog" class="container">
         <h2>Blog & Insights</h2>
         <div class="blog-grid">
             <div class="blog-post">
-                <img src="blog1.png" alt="Blog 1">
-                <h3><a href="#">How Marketing Teams Can Avoid Miscommunication</a></h3>
+                <img src="blog1.png" alt="Marketing Teams Miscommunication">
+                <h3><a href="https://github.com/Victor-coder96/Digital_Marketing_Portfolio/blob/9b6900739bce7c1049340a39eda4c34bbe79b025/Blog%201.png">How Marketing Teams Can Avoid Miscommunication</a></h3>
+            </div>
+            <div class="blog-post">
+                <img src="blog2.png" alt="Social Media Strategies">
+                <h3><a href="https://github.com/Victor-coder96/Digital_Marketing_Portfolio/blob/c8947fa6c6f12d93ef99099d123f7d17375cde22/Blog%203.png">Social Media Strategies That Actually Work</a></h3>
+            </div>
+            <div class="blog-post">
+                <img src="blog3.png" alt="SEO Importance">
+                <h3><a href="https://github.com/Victor-coder96/Digital_Marketing_Portfolio/blob/c8947fa6c6f12d93ef99099d123f7d17375cde22/Blog%204.png">The Importance of SEO for Local Businesses</a></h3>
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="container section">
+    <section id="skills" class="container">
         <h2>Skills</h2>
         <p>Social Media Strategy, SEO, Content Creation, Marketing Analysis, Branding.</p>
     </section>
 
-    <!-- Certificate Section -->
-    <section id="certificates" class="container section">
+    <!-- Services Section -->
+    <section id="services" class="container">
+        <h2>Services</h2>
+        <p>Marketing Strategy, Branding, Advertising, Social Media Management.</p>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="container">
         <h2>My Certifications</h2>
         <div class="certificates-container">
             <div class="certificate">
-                <img src="certificate1.jpg" alt="Certificate 1">
+                <img src="certificate1.jpg" alt="Brand Awareness Certification">
                 <p>Brand Awareness Campaign</p>
             </div>
             <div class="certificate">
-                <img src="certificate2.jpg" alt="Certificate 2">
+                <img src="certificate2.jpg" alt="SEO Strategy Certification">
                 <p>SEO Strategy for ABC Startup</p>
             </div>
             <div class="certificate">
-                <img src="certificate3.jpg" alt="Certificate 3">
+                <img src="certificate3.jpg" alt="Marketing Strategies Certification">
                 <p>Marketing Strategies & Insights</p>
             </div>
         </div>
     </section>
 
+    <!-- Tools Section -->
+    <section id="tools" class="container">
+        <h2>Tools</h2>
+        <div class="tools-grid">
+            <img src="llm.png" alt="Large Language Models">
+            <img src="google-analytics.png" alt="Google Analytics">
+            <img src="meta-business.png" alt="Meta Business Suite">
+            <img src="hubspot.png" alt="HubSpot">
+            <img src="semrush.png" alt="SEMrush">
+            <img src="facebook-ads.png" alt="Facebook Ads Manager">
+            <img src="canva.png" alt="Canva">
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="container">
+        <h2>Achievements</h2>
+        <p>Awards and recognitions received over the years.</p>
+    </section>
+
     <!-- Contact Section -->
-    <section id="contact" class="container section">
+    <section id="contact" class="container">
         <h2>Contact Me</h2>
-        <form action="send_email.php" method="POST" class="contact-form">
+        <form action="send_email.php" method="POST">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn">Send Message</button>
+            <button type="submit">Send Message</button>
         </form>
         <p>Email: <a href="mailto:vesionyeaba@gmail.com">vesionyeaba@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/esionyeaba-victor-063b49238/" target="_blank">LinkedIn Profile</a></p>
@@ -113,6 +151,5 @@
             <p>&copy; 2024 Victor Chiemezie. All Rights Reserved.</p>
         </div>
     </footer>
-
 </body>
 </html>
